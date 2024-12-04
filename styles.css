@@ -1,1 +1,38 @@
-/*  your css code here. If applicable */
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	background-color:#f6f6f6;
+}
+#left{
+	display:inline-block;
+	width:450px;
+	margin-top:70px;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	width:300px;
+	background-color:white;
+	padding:20px;
+	border-radius:5px;
+	box-shadow:0 0 10px #ccc;
+	gap:10px;
+}
+input{
+	border-radius:1px solid #ccc;
+	border-radius:5px;
+	padding:10px;
+}
+button{
+	background-color:#1877f2;
+	border-radius:5px;
+	padding:10px 20px;
+}
+a{
+	text-decoration-color:#1877f2;
+}
+#singup{
+	background-color:#42b72a;
+}
